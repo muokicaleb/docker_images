@@ -20,7 +20,7 @@ RUN apt-get install -y --no-install-recommends software-properties-common curl s
 RUN apt-get update \
     && apt-get install -y --no-install-recommends --allow-unauthenticated \
         xvfb \
-        vim-tiny tightvncserver firefox ttf-ubuntu-font-family ttf-wqy-zenhei  
+        vim-tiny tightvncserver firefox ttf-ubuntu-font-family ttf-wqy-zenhei  xfonts-base
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends --allow-unauthenticated \
